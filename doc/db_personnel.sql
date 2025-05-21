@@ -9,6 +9,8 @@ SET FOREIGN_KEY_CHECKS = 0;
 /* =========================================================
    1.  Announcement
 ========================================================= */
+
+
 DROP TABLE IF EXISTS `announcement`;
 CREATE TABLE `announcement` (
                                 `id`          CHAR(19)     NOT NULL COMMENT 'id',
@@ -20,6 +22,7 @@ CREATE TABLE `announcement` (
                                 `gmt_modified`DATETIME     DEFAULT NULL,
                                 PRIMARY KEY (`id`)
 ) ENGINE=InnoDB COMMENT='公告表';
+
 
 /* ——— 目前无公告示例数据 ——— */
 
