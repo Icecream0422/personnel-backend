@@ -11,6 +11,8 @@ SET FOREIGN_KEY_CHECKS = 0;
 ========================================================= */
 
 
+/*
+
 DROP TABLE IF EXISTS `announcement`;
 CREATE TABLE `announcement` (
                                 `id`          CHAR(19)     NOT NULL COMMENT 'id',
@@ -23,6 +25,7 @@ CREATE TABLE `announcement` (
                                 PRIMARY KEY (`id`)
 ) ENGINE=InnoDB COMMENT='公告表';
 
+*/
 
 /* ——— 目前无公告示例数据 ——— */
 
